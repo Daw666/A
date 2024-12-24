@@ -1,9 +1,3 @@
-game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "pshade",
-    Text = "please wait",
-    Icon = ""
-})
-
 function sandbox(var,func)
 local env = getfenv(func)
 local newenv = setmetatable({},{
